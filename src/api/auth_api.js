@@ -1,6 +1,6 @@
 import * as requester from './requester'
 
-const BaseUrl = 'http://127.0.0.1:8000/rest'
+const BaseUrl = 'https://dschinni.pythonanywhere.com/rest'
 
 
 export const register = async (data) => requester.post(`${BaseUrl}/register/`, data);
