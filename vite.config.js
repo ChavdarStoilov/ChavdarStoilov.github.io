@@ -22,7 +22,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: '/',
+    base: '/dschinni-gh-page/',
   }
 
   if (command !== 'serve') {
