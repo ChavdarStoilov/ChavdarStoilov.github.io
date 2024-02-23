@@ -488,6 +488,15 @@ h1, h2, h3, h4, h5, h6, figure {
   .timeline:before {
     margin-left: -64px;
   }
+  .m-9df02822 {
+    --modal-size: 100% !important;
+  }
+  .m-1f958f16 {
+    justify-content:start !important;
+  }
+  .project-pics {
+      height: 300px !important;
+  }
 }
 @media screen and (max-width: 768px) {
   .timeline .timeline-heading {
@@ -1375,10 +1384,8 @@ input[type="text"] {
   cursor: pointer;
 }
 
-.m-9df02822 {
-  --modal-size: 100% !important;
+.m-9814e45f {
+  background: var(--overlay-bg, rgba(0,0,0,.8)) !important;
 }
-.m-1f958f16 {
-  justify-content:start !important;
-}
+
 /*# sourceMappingURL=style.css.map */
