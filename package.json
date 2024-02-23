@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "homepage": "https://github.com/ChavdarStoilov/chavdarstoilov.github.io",
+  "homepage": "https://ChavdarStoilov.github.io",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
