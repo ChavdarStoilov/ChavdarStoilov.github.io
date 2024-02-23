@@ -20,11 +20,6 @@ concurrency:
   group: 'pages'
   cancel-in-progress: true
 
-handlers:
-  - url: /(.*\.(json|ico|js|png))$
-    static_files: ./\1
-    upload: ./.*\.(json|ico|js|png)$
-    
 jobs:
   # Single deploy job since we're just deploying
   deploy:
