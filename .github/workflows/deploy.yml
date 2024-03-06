@@ -48,4 +48,6 @@ jobs:
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
+        env:
+          TEST: ${{ vars.TEST }}
         uses: actions/deploy-pages@v1
