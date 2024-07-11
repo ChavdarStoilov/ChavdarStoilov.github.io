@@ -356,6 +356,9 @@ h1, h2, h3, h4, h5, h6, figure {
   .info {
     margin-bottom: 3em;
   }
+  .col-md-4 {
+    height: 380px;
+  }
 }
 .info li {
   width: 100%;
@@ -376,6 +379,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 70%;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .fh5co-social-icons {
